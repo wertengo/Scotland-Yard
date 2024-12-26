@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+    <connection from_id="1" to_id="8" type="Taxi"/>
+    <connection from_id="1" to_id="8" type="Taxi"/>
+    <connection from_id="1" to_id="9" type="Taxi"/>
+    <connection from_id="1" to_id="58" type="Bus"/>
+    <connection from_id="1" to_id="46" type="Bus"/>
+    <connection from_id="1" to_id="46" type="Metro"/>
+    <connection from_id="2" to_id="20" type="Taxi"/>
+    <connection from_id="2" to_id="10" type="Taxi"/>
+    <connection from_id="3" to_id="11" type="Taxi"/>
+    <connection from_id="3" to_id="12" type="Taxi"/>
+    <connection from_id="3" to_id="4" type="Taxi"/>
+    <connection from_id="3" to_id="22" type="Bus"/>
+    <connection from_id="3" to_id="23" type="Bus"/>
+    <connection from_id="4" to_id="13" type="Taxi"/>
+    <connection from_id="5" to_id="15" type="Taxi"/>
+    <connection from_id="5" to_id="16" type="Taxi"/>
+    <connection from_id="6" to_id="29" type="Taxi"/>
+    <connection from_id="6" to_id="7" type="Taxi"/>
+    <connection from_id="7" to_id="17" type="Taxi"/>
+    <connection from_id="7" to_id="42" type="Bus"/>
+    <connection from_id="8" to_id="18" type="Taxi"/>
+    <connection from_id="8" to_id="19" type="Taxi"/>
+    <connection from_id="9" to_id="19" type="Taxi"/>
+    <connection from_id="9" to_id="20" type="Taxi"/>
+    <connection from_id="10" to_id="11" type="Taxi"/>
+    <connection from_id="10" to_id="21" type="Taxi"/>
+    <connection from_id="10" to_id="34" type="Taxi"/>
+    <connection from_id="11" to_id="22" type="Taxi"/>
+    <connection from_id="12" to_id="23" type="Taxi"/>
+    <connection from_id="13" to_id="23" type="Taxi"/>
+    <connection from_id="13" to_id="14" type="Taxi"/>
+    <connection from_id="13" to_id="24" type="Taxi"/>
+    <connection from_id="13" to_id="23" type="Bus"/>
+    <connection from_id="13" to_id="14" type="Bus"/>
+    <connection from_id="13" to_id="52" type="Bus"/>
+    <connection from_id="13" to_id="46" type="Metro"/>
+    <connection from_id="13" to_id="67" type="Metro"/>
+    <connection from_id="13" to_id="89" type="Metro"/>
+    <connection from_id="14" to_id="15" type="Taxi"/>
+    <connection from_id="14" to_id="25" type="Taxi"/>
+    <connection from_id="14" to_id="15" type="Bus"/>
+    <connection from_id="15" to_id="16" type="Taxi"/>
+    <connection from_id="15" to_id="26" type="Taxi"/>
+    <connection from_id="15" to_id="28" type="Taxi"/>
+    <connection from_id="15" to_id="41" type="Bus"/>
+    <connection from_id="15" to_id="29" type="Bus"/>
+    <connection from_id="16" to_id="28" type="Taxi"/>
+    <connection from_id="16" to_id="29" type="Taxi"/>
+    <connection from_id="17" to_id="29" type="Taxi"/>
+    <connection from_id="17" to_id="30" type="Taxi"/>
+    <connection from_id="18" to_id="31" type="Taxi"/>
+    <connection from_id="18" to_id="43" type="Taxi"/>
+    <connection from_id="19" to_id="32" type="Taxi"/>
+    <connection from_id="20" to_id="33" type="Taxi"/>
+    <connection from_id="21" to_id="33" type="Taxi"/>
+    <connection from_id="22" to_id="34" type="Taxi"/>
+    <connection from_id="22" to_id="23" type="Taxi"/>
+    <connection from_id="22" to_id="35" type="Taxi"/>
+    <connection from_id="22" to_id="34" type="Bus"/>
+    <connection from_id="22" to_id="23" type="Bus"/>
+    <connection from_id="22" to_id="65" type="Bus"/>
+    <connection from_id="23" to_id="37" type="Taxi"/>
+    <connection from_id="23" to_id="67" type="Bus"/>
+    <connection from_id="24" to_id="37" type="Taxi"/>
+    <connection from_id="24" to_id="38" type="Taxi"/>
+    <connection from_id="25" to_id="38" type="Taxi"/>
+    <connection from_id="25" to_id="39" type="Taxi"/>
+    <connection from_id="26" to_id="39" type="Taxi"/>
+    <connection from_id="26" to_id="27" type="Taxi"/>
+    <connection from_id="27" to_id="28" type="Taxi"/>
+    <connection from_id="27" to_id="40" type="Taxi"/>
+    <connection from_id="28" to_id="41" type="Taxi"/>
+    <connection from_id="29" to_id="41" type="Taxi"/>
+    <connection from_id="29" to_id="42" type="Taxi"/>
+    <connection from_id="29" to_id="41" type="Bus"/>
+    <connection from_id="29" to_id="42" type="Bus"/>
+    <connection from_id="29" to_id="55" type="Bus"/>
+    <connection from_id="30" to_id="42" type="Taxi"/>
+    <connection from_id="31" to_id="43" type="Taxi"/>
+    <connection from_id="31" to_id="44" type="Taxi"/>
+    <connection from_id="32" to_id="44" type="Taxi"/>
+    <connection from_id="32" to_id="33" type="Taxi"/>
+    <connection from_id="32" to_id="45" type="Taxi"/>
+    <connection from_id="33" to_id="46" type="Taxi"/>
+    <connection from_id="34" to_id="47" type="Taxi"/>
+    <connection from_id="34" to_id="48" type="Taxi"/>
+    <connection from_id="34" to_id="46" type="Bus"/>
+    <connection from_id="34" to_id="63" type="Bus"/>
+    <connection from_id="35" to_id="36" type="Taxi"/>
+    <connection from_id="35" to_id="48" type="Taxi"/>
+    <connection from_id="35" to_id="65" type="Taxi"/>
+    <connection from_id="36" to_id="37" type="Taxi"/>
+    <connection from_id="36" to_id="49" type="Taxi"/>
+    <connection from_id="37" to_id="50" type="Taxi"/>
+    <connection from_id="38" to_id="50" type="Taxi"/>
+    <connection from_id="38" to_id="51" type="Taxi"/>
+    <connection from_id="39" to_id="51" type="Taxi"/>
+    <connection from_id="39" to_id="52" type="Taxi"/>
+    <connection from_id="40" to_id="52" type="Taxi"/>
+    <connection from_id="40" to_id="41" type="Taxi"/>
+    <connection from_id="40" to_id="53" type="Taxi"/>
+    <connection from_id="41" to_id="54" type="Taxi"/>
+    <connection from_id="41" to_id="52" type="Bus"/>
+    <connection from_id="41" to_id="87" type="Bus"/>
+    <connection from_id="42" to_id="56" type="Taxi"/>
+    <connection from_id="42" to_id="72" type="Taxi"/>
+    <connection from_id="42" to_id="72" type="Bus"/>
+    <connection from_id="43" to_id="57" type="Taxi"/>
+    <connection from_id="44" to_id="58" type="Taxi"/>
+    <connection from_id="45" to_id="58" type="Taxi"/>
+    <connection from_id="45" to_id="60" type="Taxi"/>
+    <connection from_id="45" to_id="59" type="Taxi"/>
+    <connection from_id="45" to_id="46" type="Taxi"/>
+    <connection from_id="46" to_id="47" type="Taxi"/>
+    <connection from_id="46" to_id="61" type="Taxi"/>
+    <connection from_id="46" to_id="58" type="Bus"/>
+    <connection from_id="46" to_id="78" type="Bus"/>
+    <connection from_id="46" to_id="74" type="Metro"/>
+    <connection from_id="46" to_id="79" type="Metro"/>
+    <connection from_id="47" to_id="62" type="Taxi"/>
+    <connection from_id="48" to_id="62" type="Taxi"/>
+    <connection from_id="48" to_id="63" type="Taxi"/>
+    <connection from_id="49" to_id="50" type="Taxi"/>
+    <connection from_id="49" to_id="66" type="Taxi"/>
+    <connection from_id="51" to_id="67" type="Taxi"/>
+    <connection from_id="51" to_id="52" type="Taxi"/>
+    <connection from_id="51" to_id="68" type="Taxi"/>
+    <connection from_id="52" to_id="69" type="Taxi"/>
+    <connection from_id="52" to_id="67" type="Bus"/>
+    <connection from_id="52" to_id="86" type="Bus"/>
+    <connection from_id="53" to_id="54" type="Taxi"/>
+    <connection from_id="53" to_id="69" type="Taxi"/>
+    <connection from_id="54" to_id="55" type="Taxi"/>
+    <connection from_id="54" to_id="70" type="Taxi"/>
+    <connection from_id="55" to_id="71" type="Taxi"/>
+    <connection from_id="55" to_id="89" type="Bus"/>
+    <connection from_id="56" to_id="91" type="Taxi"/>
+    <connection from_id="57" to_id="58" type="Taxi"/>
+    <connection from_id="57" to_id="73" type="Taxi"/>
+    <connection from_id="58" to_id="59" type="Taxi"/>
+    <connection from_id="58" to_id="74" type="Taxi"/>
+    <connection from_id="58" to_id="74" type="Bus"/>
+    <connection from_id="58" to_id="75" type="Taxi"/>
+    <connection from_id="58" to_id="77" type="Bus"/>
+    <connection from_id="59" to_id="75" type="Taxi"/>
+    <connection from_id="59" to_id="76" type="Taxi"/>
+    <connection from_id="60" to_id="61" type="Taxi"/>
+    <connection from_id="60" to_id="76" type="Taxi"/>
+    <connection from_id="61" to_id="62" type="Taxi"/>
+    <connection from_id="61" to_id="76" type="Taxi"/>
+    <connection from_id="61" to_id="78" type="Taxi"/>
+    <connection from_id="62" to_id="79" type="Taxi"/>
+    <connection from_id="63" to_id="64" type="Taxi"/>
+    <connection from_id="63" to_id="80" type="Taxi"/>
+    <connection from_id="63" to_id="79" type="Taxi"/>
+    <connection from_id="63" to_id="79" type="Bus"/>
+    <connection from_id="63" to_id="65" type="Bus"/>
+    <connection from_id="63" to_id="100" type="Bus"/>
+    <connection from_id="64" to_id="65" type="Taxi"/>
+    <connection from_id="64" to_id="81" type="Taxi"/>
+    <connection from_id="65" to_id="66" type="Taxi"/>
+    <connection from_id="65" to_id="82" type="Taxi"/>
+    <connection from_id="65" to_id="67" type="Bus"/>
+    <connection from_id="65" to_id="82" type="Bus"/>
+    <connection from_id="66" to_id="67" type="Taxi"/>
+    <connection from_id="66" to_id="82" type="Taxi"/>
+    <connection from_id="67" to_id="68" type="Taxi"/>
+    <connection from_id="67" to_id="84" type="Taxi"/>
+    <connection from_id="67" to_id="82" type="Bus"/>
+    <connection from_id="67" to_id="102" type="Bus"/>
+    <connection from_id="67" to_id="79" type="Metro"/>
+    <connection from_id="67" to_id="111" type="Metro"/>
+    <connection from_id="67" to_id="89" type="Metro"/>
+    <connection from_id="68" to_id="69" type="Taxi"/>
+    <connection from_id="68" to_id="85" type="Taxi"/>
+    <connection from_id="69" to_id="86" type="Taxi"/>
+    <connection from_id="70" to_id="71" type="Taxi"/>
+    <connection from_id="70" to_id="87" type="Taxi"/>
+    <connection from_id="71" to_id="72" type="Taxi"/>
+    <connection from_id="71" to_id="89" type="Taxi"/>
+    <connection from_id="72" to_id="91" type="Taxi"/>
+    <connection from_id="72" to_id="90" type="Taxi"/>
+    <connection from_id="72" to_id="105" type="Bus"/>
+    <connection from_id="72" to_id="107" type="Bus"/>
+    <connection from_id="73" to_id="74" type="Taxi"/>
+    <connection from_id="73" to_id="92" type="Taxi"/>
+    <connection from_id="74" to_id="92" type="Taxi"/>
+    <connection from_id="74" to_id="75" type="Taxi"/>
+    <connection from_id="74" to_id="94" type="Bus"/>
+    <connection from_id="75" to_id="94" type="Taxi"/>
+    <connection from_id="76" to_id="77" type="Taxi"/>
+    <connection from_id="77" to_id="78" type="Taxi"/>
+    <connection from_id="77" to_id="95" type="Taxi"/>
+    <connection from_id="77" to_id="96" type="Taxi"/>
+    <connection from_id="77" to_id="94" type="Bus"/>
+    <connection from_id="77" to_id="78" type="Bus"/>
+    <connection from_id="77" to_id="124" type="Bus"/>
+    <connection from_id="78" to_id="79" type="Taxi"/>
+    <connection from_id="78" to_id="97" type="Taxi"/>
+    <connection from_id="78" to_id="79" type="Bus"/>
+    <connection from_id="79" to_id="98" type="Taxi"/>
+    <connection from_id="79" to_id="93" type="Metro"/>
+    <connection from_id="79" to_id="111" type="Metro"/>
+    <connection from_id="80" to_id="99" type="Taxi"/>
+    <connection from_id="80" to_id="100" type="Taxi"/>
+    <connection from_id="81" to_id="82" type="Taxi"/>
+    <connection from_id="81" to_id="100" type="Taxi"/>
+    <connection from_id="82" to_id="101" type="Taxi"/>
+    <connection from_id="82" to_id="100" type="Bus"/>
+    <connection from_id="82" to_id="140" type="Bus"/>
+    <connection from_id="83" to_id="101" type="Taxi"/>
+    <connection from_id="83" to_id="102" type="Taxi"/>
+    <connection from_id="84" to_id="85" type="Taxi"/>
+    <connection from_id="85" to_id="103" type="Taxi"/>
+    <connection from_id="86" to_id="103" type="Taxi"/>
+    <connection from_id="86" to_id="104" type="Taxi"/>
+    <connection from_id="86" to_id="87" type="Bus"/>
+    <connection from_id="86" to_id="102" type="Bus"/>
+    <connection from_id="86" to_id="116" type="Bus"/>
+    <connection from_id="87" to_id="88" type="Taxi"/>
+    <connection from_id="87" to_id="105" type="Bus"/>
+    <connection from_id="88" to_id="117" type="Taxi"/>
+    <connection from_id="88" to_id="89" type="Taxi"/>
+    <connection from_id="89" to_id="105" type="Taxi"/>
+    <connection from_id="89" to_id="105" type="Bus"/>
+    <connection from_id="89" to_id="140" type="Metro"/>
+    <connection from_id="89" to_id="128" type="Metro"/>
+    <connection from_id="90" to_id="105" type="Taxi"/>
+    <connection from_id="90" to_id="91" type="Taxi"/>
+    <connection from_id="91" to_id="105" type="Taxi"/>
+    <connection from_id="91" to_id="107" type="Taxi"/>
+    <connection from_id="92" to_id="93" type="Taxi"/>
+    <connection from_id="93" to_id="94" type="Taxi"/>
+    <connection from_id="93" to_id="94" type="Bus"/>
+    <connection from_id="94" to_id="95" type="Taxi"/>
+    <connection from_id="95" to_id="122" type="Taxi"/>
+    <connection from_id="96" to_id="97" type="Taxi"/>
+    <connection from_id="96" to_id="109" type="Taxi"/>
+    <connection from_id="97" to_id="98" type="Taxi"/>
+    <connection from_id="97" to_id="109" type="Taxi"/>
+    <connection from_id="98" to_id="99" type="Taxi"/>
+    <connection from_id="98" to_id="110" type="Taxi"/>
+    <connection from_id="99" to_id="110" type="Taxi"/>
+    <connection from_id="99" to_id="112" type="Taxi"/>
+    <connection from_id="100" to_id="101" type="Taxi"/>
+    <connection from_id="100" to_id="112" type="Taxi"/>
+    <connection from_id="100" to_id="113" type="Taxi"/>
+    <connection from_id="100" to_id="111" type="Bus"/>
+    <connection from_id="101" to_id="114" type="Taxi"/>
+    <connection from_id="102" to_id="103" type="Taxi"/>
+    <connection from_id="102" to_id="115" type="Taxi"/>
+    <connection from_id="102" to_id="127" type="Bus"/>
+    <connection from_id="104" to_id="116" type="Taxi"/>
+    <connection from_id="105" to_id="106" type="Taxi"/>
+    <connection from_id="105" to_id="107" type="Bus"/>
+    <connection from_id="105" to_id="108" type="Taxi"/>
+    <connection from_id="105" to_id="108" type="Bus"/>
+    <connection from_id="106" to_id="107" type="Taxi"/>
+    <connection from_id="107" to_id="119" type="Taxi"/>
+    <connection from_id="107" to_id="161" type="Bus"/>
+    <connection from_id="108" to_id="117" type="Taxi"/>
+    <connection from_id="108" to_id="116" type="Bus"/>
+    <connection from_id="108" to_id="119" type="Taxi"/>
+    <connection from_id="108" to_id="135" type="Bus"/>
+    <connection from_id="109" to_id="110" type="Taxi"/>
+    <connection from_id="109" to_id="124" type="Taxi"/>
+    <connection from_id="110" to_id="111" type="Taxi"/>
+    <connection from_id="111" to_id="112" type="Taxi"/>
+    <connection from_id="111" to_id="124" type="Taxi"/>
+    <connection from_id="111" to_id="124" type="Bus"/>
+    <connection from_id="111" to_id="153" type="Metro"/>
+    <connection from_id="111" to_id="163" type="Metro"/>
+    <connection from_id="112" to_id="125" type="Taxi"/>
+    <connection from_id="113" to_id="114" type="Taxi"/>
+    <connection from_id="113" to_id="125" type="Taxi"/>
+    <connection from_id="114" to_id="115" type="Taxi"/>
+    <connection from_id="114" to_id="126" type="Taxi"/>
+    <connection from_id="114" to_id="131" type="Taxi"/>
+    <connection from_id="114" to_id="132" type="Taxi"/>
+    <connection from_id="115" to_id="127" type="Taxi"/>
+    <connection from_id="115" to_id="126" type="Taxi"/>
+    <connection from_id="116" to_id="117" type="Taxi"/>
+    <connection from_id="116" to_id="118" type="Taxi"/>
+    <connection from_id="116" to_id="127" type="Taxi"/>
+    <connection from_id="116" to_id="127" type="Bus"/>
+    <connection from_id="116" to_id="142" type="Bus"/>
+    <connection from_id="117" to_id="129" type="Taxi"/>
+    <connection from_id="118" to_id="129" type="Taxi"/>
+    <connection from_id="118" to_id="134" type="Taxi"/>
+    <connection from_id="118" to_id="142" type="Taxi"/>
+    <connection from_id="119" to_id="136" type="Taxi"/>
+    <connection from_id="120" to_id="121" type="Taxi"/>
+    <connection from_id="120" to_id="144" type="Taxi"/>
+    <connection from_id="121" to_id="122" type="Taxi"/>
+    <connection from_id="121" to_id="145" type="Taxi"/>
+    <connection from_id="122" to_id="123" type="Taxi"/>
+    <connection from_id="122" to_id="146" type="Taxi"/>
+    <connection from_id="122" to_id="144" type="Bus"/>
+    <connection from_id="122" to_id="123" type="Bus"/>
+    <connection from_id="123" to_id="124" type="Taxi"/>
+    <connection from_id="123" to_id="137" type="Taxi"/>
+    <connection from_id="123" to_id="148" type="Taxi"/>
+    <connection from_id="123" to_id="149" type="Taxi"/>
+    <connection from_id="123" to_id="144" type="Bus"/>
+    <connection from_id="123" to_id="165" type="Bus"/>
+    <connection from_id="123" to_id="124" type="Bus"/>
+    <connection from_id="124" to_id="138" type="Taxi"/>
+    <connection from_id="124" to_id="153" type="Bus"/>
+    <connection from_id="124" to_id="130" type="Taxi"/>
+    <connection from_id="124" to_id="138" type="Taxi"/>
+    <connection from_id="124" to_id="153" type="Bus"/>
+    <connection from_id="125" to_id="131" type="Taxi"/>
+    <connection from_id="126" to_id="127" type="Taxi"/>
+    <connection from_id="126" to_id="140" type="Taxi"/>
+    <connection from_id="127" to_id="133" type="Taxi"/>
+    <connection from_id="127" to_id="134" type="Taxi"/>
+    <connection from_id="127" to_id="133" type="Bus"/>
+    <connection from_id="128" to_id="188" type="Taxi"/>
+    <connection from_id="128" to_id="185" type="Metro"/>
+    <connection from_id="128" to_id="199" type="Bus"/>
+    <connection from_id="128" to_id="187" type="Bus"/>
+    <connection from_id="129" to_id="135" type="Taxi"/>
+    <connection from_id="129" to_id="142" type="Taxi"/>
+    <connection from_id="129" to_id="143" type="Taxi"/>
+    <connection from_id="130" to_id="131" type="Taxi"/>
+    <connection from_id="130" to_id="139" type="Taxi"/>
+    <connection from_id="132" to_id="140" type="Taxi"/>
+    <connection from_id="133" to_id="141" type="Taxi"/>
+    <connection from_id="133" to_id="140" type="Taxi"/>
+    <connection from_id="133" to_id="140" type="Bus"/>
+    <connection from_id="133" to_id="157" type="Bus"/>
+    <connection from_id="134" to_id="141" type="Taxi"/>
+    <connection from_id="134" to_id="142" type="Taxi"/>
+    <connection from_id="135" to_id="136" type="Taxi"/>
+    <connection from_id="135" to_id="143" type="Taxi"/>
+    <connection from_id="135" to_id="161" type="Taxi"/>
+    <connection from_id="135" to_id="128" type="Bus"/>
+    <connection from_id="135" to_id="161" type="Bus"/>
+    <connection from_id="136" to_id="162" type="Taxi"/>
+    <connection from_id="137" to_id="147" type="Taxi"/>
+    <connection from_id="138" to_id="150" type="Taxi"/>
+    <connection from_id="138" to_id="152" type="Taxi"/>
+    <connection from_id="139" to_id="140" type="Taxi"/>
+    <connection from_id="139" to_id="154" type="Taxi"/>
+    <connection from_id="139" to_id="153" type="Taxi"/>
+    <connection from_id="140" to_id="154" type="Taxi"/>
+    <connection from_id="140" to_id="156" type="Taxi"/>
+    <connection from_id="140" to_id="154" type="Bus"/>
+    <connection from_id="140" to_id="156" type="Bus"/>
+    <connection from_id="140" to_id="153" type="Metro"/>
+    <connection from_id="140" to_id="128" type="Metro"/>
+    <connection from_id="141" to_id="142" type="Taxi"/>
+    <connection from_id="141" to_id="158" type="Taxi"/>
+    <connection from_id="142" to_id="143" type="Taxi"/>
+    <connection from_id="142" to_id="128" type="Taxi"/>
+    <connection from_id="142" to_id="158" type="Taxi"/>
+    <connection from_id="142" to_id="157" type="Bus"/>
+    <connection from_id="142" to_id="128" type="Bus"/>
+    <connection from_id="143" to_id="128" type="Taxi"/>
+    <connection from_id="143" to_id="160" type="Taxi"/>
+    <connection from_id="144" to_id="145" type="Taxi"/>
+    <connection from_id="144" to_id="177" type="Taxi"/>
+    <connection from_id="144" to_id="163" type="Bus"/>
+    <connection from_id="145" to_id="146" type="Taxi"/>
+    <connection from_id="146" to_id="147" type="Taxi"/>
+    <connection from_id="146" to_id="163" type="Taxi"/>
+    <connection from_id="147" to_id="164" type="Taxi"/>
+    <connection from_id="148" to_id="149" type="Taxi"/>
+    <connection from_id="148" to_id="164" type="Taxi"/>
+    <connection from_id="149" to_id="150" type="Taxi"/>
+    <connection from_id="149" to_id="165" type="Taxi"/>
+    <connection from_id="150" to_id="151" type="Taxi"/>
+    <connection from_id="151" to_id="152" type="Taxi"/>
+    <connection from_id="151" to_id="165" type="Taxi"/>
+    <connection from_id="151" to_id="166" type="Taxi"/>
+    <connection from_id="152" to_id="153" type="Taxi"/>
+    <connection from_id="153" to_id="154" type="Taxi"/>
+    <connection from_id="153" to_id="166" type="Taxi"/>
+    <connection from_id="153" to_id="167" type="Taxi"/>
+    <connection from_id="153" to_id="154" type="Bus"/>
+    <connection from_id="153" to_id="180" type="Bus"/>
+    <connection from_id="153" to_id="184" type="Bus"/>
+    <connection from_id="153" to_id="163" type="Metro"/>
+    <connection from_id="153" to_id="185" type="Metro"/>
+    <connection from_id="154" to_id="155" type="Taxi"/>
+    <connection from_id="154" to_id="156" type="Bus"/>
+    <connection from_id="155" to_id="167" type="Taxi"/>
+    <connection from_id="155" to_id="168" type="Taxi"/>
+    <connection from_id="155" to_id="156" type="Taxi"/>
+    <connection from_id="156" to_id="157" type="Taxi"/>
+    <connection from_id="156" to_id="169" type="Taxi"/>
+    <connection from_id="156" to_id="157" type="Bus"/>
+    <connection from_id="156" to_id="184" type="Bus"/>
+    <connection from_id="157" to_id="158" type="Taxi"/>
+    <connection from_id="157" to_id="170" type="Taxi"/>
+    <connection from_id="157" to_id="185" type="Bus"/>
+    <connection from_id="158" to_id="159" type="Taxi"/>
+    <connection from_id="159" to_id="170" type="Taxi"/>
+    <connection from_id="159" to_id="172" type="Taxi"/>
+    <connection from_id="159" to_id="186" type="Taxi"/>
+    <connection from_id="159" to_id="198" type="Taxi"/>
+    <connection from_id="160" to_id="161" type="Taxi"/>
+    <connection from_id="160" to_id="173" type="Taxi"/>
+    <connection from_id="160" to_id="128" type="Taxi"/>
+    <connection from_id="161" to_id="174" type="Taxi"/>
+    <connection from_id="161" to_id="128" type="Bus"/>
+    <connection from_id="161" to_id="199" type="Bus"/>
+    <connection from_id="162" to_id="175" type="Taxi"/>
+    <connection from_id="163" to_id="177" type="Taxi"/>
+    <connection from_id="163" to_id="176" type="Bus"/>
+    <connection from_id="163" to_id="191" type="Bus"/>
+    <connection from_id="164" to_id="178" type="Taxi"/>
+    <connection from_id="164" to_id="179" type="Taxi"/>
+    <connection from_id="165" to_id="179" type="Taxi"/>
+    <connection from_id="165" to_id="180" type="Taxi"/>
+    <connection from_id="165" to_id="191" type="Bus"/>
+    <connection from_id="165" to_id="180" type="Bus"/>
+    <connection from_id="166" to_id="181" type="Taxi"/>
+    <connection from_id="166" to_id="183" type="Taxi"/>
+    <connection from_id="167" to_id="168" type="Taxi"/>
+    <connection from_id="167" to_id="183" type="Taxi"/>
+    <connection from_id="168" to_id="184" type="Taxi"/>
+    <connection from_id="169" to_id="184" type="Taxi"/>
+    <connection from_id="170" to_id="185" type="Taxi"/>
+    <connection from_id="171" to_id="173" type="Taxi"/>
+    <connection from_id="171" to_id="175" type="Taxi"/>
+    <connection from_id="171" to_id="199" type="Taxi"/>
+    <connection from_id="172" to_id="187" type="Taxi"/>
+    <connection from_id="173" to_id="174" type="Taxi"/>
+    <connection from_id="172" to_id="128" type="Taxi"/>
+    <connection from_id="173" to_id="188" type="Taxi"/>
+    <connection from_id="174" to_id="175" type="Taxi"/>
+    <connection from_id="176" to_id="177" type="Taxi"/>
+    <connection from_id="176" to_id="189" type="Taxi"/>
+    <connection from_id="176" to_id="190" type="Bus"/>
+    <connection from_id="178" to_id="189" type="Taxi"/>
+    <connection from_id="178" to_id="191" type="Taxi"/>
+    <connection from_id="179" to_id="191" type="Taxi"/>
+    <connection from_id="180" to_id="181" type="Taxi"/>
+    <connection from_id="180" to_id="184" type="Bus"/>
+    <connection from_id="180" to_id="193" type="Taxi"/>
+    <connection from_id="180" to_id="190" type="Bus"/>
+    <connection from_id="181" to_id="193" type="Taxi"/>
+    <connection from_id="181" to_id="182" type="Taxi"/>
+    <connection from_id="182" to_id="183" type="Taxi"/>
+    <connection from_id="182" to_id="195" type="Taxi"/>
+    <connection from_id="183" to_id="196" type="Taxi"/>
+    <connection from_id="184" to_id="196" type="Taxi"/>
+    <connection from_id="184" to_id="185" type="Taxi"/>
+    <connection from_id="184" to_id="185" type="Bus"/>
+    <connection from_id="184" to_id="197" type="Taxi"/>
+    <connection from_id="185" to_id="186" type="Taxi"/>
+    <connection from_id="185" to_id="187" type="Bus"/>
+    <connection from_id="185" to_id="199" type="Bus"/>
+    <connection from_id="186" to_id="198" type="Taxi"/>
+    <connection from_id="187" to_id="188" type="Taxi"/>
+    <connection from_id="187" to_id="198" type="Taxi"/>
+    <connection from_id="187" to_id="199" type="Bus"/>
+    <connection from_id="188" to_id="199" type="Taxi"/>
+    <connection from_id="189" to_id="190" type="Taxi"/>
+    <connection from_id="190" to_id="191" type="Taxi"/>
+    <connection from_id="190" to_id="192" type="Taxi"/>
+    <connection from_id="190" to_id="191" type="Bus"/>
+    <connection from_id="191" to_id="192" type="Taxi"/>
+    <connection from_id="192" to_id="194" type="Taxi"/>
+    <connection from_id="193" to_id="194" type="Taxi"/>
+    <connection from_id="194" to_id="195" type="Taxi"/>
+    <connection from_id="195" to_id="197" type="Taxi"/>
+    <connection from_id="196" to_id="197" type="Taxi"/>
+    <connection from_id="198" to_id="199" type="Taxi"/>
+    <connection from_id="199" to_id="200" type="Taxi"/>
+
+    <node id="1" pos="2"/>
+    <node id="2" pos="7"/>
+    <node id="3" pos="9"/>
+    <node id="4" pos="11"/>
+    <node id="5" pos="17"/>
+    <node id="6" pos="19"/>
+    <node id="7" pos="21"/>
+    <node id="8" pos="24"/>
+    <node id="9" pos="26"/>
+    <node id="10" pos="31"/>
+    <node id="11" pos="32"/>
+    <node id="12" pos="33"/>
+    <node id="13" pos="35"/>
+    <node id="14" pos="37"/>
+    <node id="15" pos="38"/>
+    <node id="16" pos="41"/>
+    <node id="17" pos="44"/>
+    <node id="18" pos="46"/>
+    <node id="19" pos="48"/>
+    <node id="20" pos="51"/>
+    <node id="21" pos="53"/>
+    <node id="22" pos="55"/>
+    <node id="23" pos="57"/>
+    <node id="24" pos="59"/>
+    <node id="25" pos="60"/>
+    <node id="26" pos="61"/>
+    <node id="27" pos="62"/>
+    <node id="28" pos="63"/>
+    <node id="29" pos="65"/>
+    <node id="30" pos="68"/>
+    <node id="31" pos="70"/>
+    <node id="32" pos="72"/>
+    <node id="33" pos="75"/>
+    <node id="34" pos="77"/>
+    <node id="35" pos="78"/>
+    <node id="36" pos="80"/>
+    <node id="37" pos="81"/>
+    <node id="38" pos="82"/>
+    <node id="39" pos="84"/>
+    <node id="40" pos="85"/>
+    <node id="41" pos="86"/>
+    <node id="42" pos="90"/>
+    <node id="43" pos="92"/>
+    <node id="44" pos="94"/>
+    <node id="45" pos="96"/>
+    <node id="46" pos="98"/>
+    <node id="47" pos="99"/>
+    <node id="48" pos="100"/>
+    <node id="49" pos="104"/>
+    <node id="50" pos="105"/>
+    <node id="51" pos="106"/>
+    <node id="52" pos="107"/>
+    <node id="53" pos="108"/>
+    <node id="54" pos="109"/>
+    <node id="55" pos="111"/>
+    <node id="56" pos="114"/>
+    <node id="57" pos="116"/>
+    <node id="58" pos="118"/>
+    <node id="59" pos="119"/>
+    <node id="60" pos="120"/>
+    <node id="61" pos="121"/>
+    <node id="62" pos="122"/>
+    <node id="63" pos="123"/>
+    <node id="64" pos="124"/>
+    <node id="65" pos="126"/>
+    <node id="66" pos="127"/>
+    <node id="67" pos="129"/>
+    <node id="68" pos="130"/>
+    <node id="69" pos="131"/>
+    <node id="70" pos="132"/>
+    <node id="71" pos="134"/>
+    <node id="72" pos="136"/>
+    <node id="73" pos="139"/>
+    <node id="74" pos="140"/>
+    <node id="75" pos="141"/>
+    <node id="76" pos="142"/>
+    <node id="77" pos="143"/>
+    <node id="78" pos="144"/>
+    <node id="79" pos="145"/>
+    <node id="80" pos="146"/>
+    <node id="81" pos="148"/>
+    <node id="82" pos="149"/>
+    <node id="83" pos="151"/>
+    <node id="84" pos="152"/>
+    <node id="85" pos="153"/>
+    <node id="86" pos="154"/>
+    <node id="87" pos="155"/>
+    <node id="88" pos="156"/>
+    <node id="89" pos="157"/>
+    <node id="90" pos="158"/>
+    <node id="91" pos="160"/>
+    <node id="92" pos="161"/>
+    <node id="93" pos="162"/>
+    <node id="94" pos="163"/>
+    <node id="95" pos="164"/>
+    <node id="96" pos="166"/>
+    <node id="97" pos="167"/>
+    <node id="98" pos="168"/>
+    <node id="99" pos="169"/>
+    <node id="100" pos="170"/>
+    <node id="101" pos="173"/>
+    <node id="102" pos="175"/>
+    <node id="103" pos="176"/>
+    <node id="104" pos="177"/>
+    <node id="105" pos="180"/>
+    <node id="106" pos="182"/>
+    <node id="107" pos="183"/>
+    <node id="109" pos="190"/>
+    <node id="110" pos="191"/>
+    <node id="111" pos="192"/>
+    <node id="112" pos="193"/>
+    <node id="113" pos="194"/>
+    <node id="114" pos="196"/>
+    <node id="115" pos="198"/>
+    <node id="116" pos="200"/>
+    <node id="117" pos="202"/>
+    <node id="118" pos="203"/>
+    <node id="119" pos="206"/>
+    <node id="120" pos="207"/>
+    <node id="121" pos="208"/>
+    <node id="122" pos="210"/>
+    <node id="123" pos="211"/>
+    <node id="124" pos="213"/>
+    <node id="125" pos="216"/>
+    <node id="126" pos="220"/>
+    <node id="127" pos="222"/>
+    <node id="128" pos="223"/>
+    <node id="129" pos="225"/>
+    <node id="130" pos="238"/>
+    <node id="131" pos="240"/>
+    <node id="132" pos="242"/>
+    <node id="133" pos="244"/>
+    <node id="134" pos="245"/>
+    <node id="135" pos="249"/>
+    <node id="136" pos="252"/>
+    <node id="137" pos="257"/>
+    <node id="138" pos="260"/>
+    <node id="139" pos="261"/>
+    <node id="140" pos="265"/>
+    <node id="141" pos="267"/>
+    <node id="142" pos="269"/>
+    <node id="143" pos="271"/>
+    <node id="144" pos="276"/>
+    <node id="145" pos="277"/>
+    <node id="146" pos="278"/>
+    <node id="147" pos="279"/>
+    <node id="148" pos="280"/>
+    <node id="149" pos="281"/>
+    <node id="150" pos="282"/>
+    <node id="151" pos="283"/>
+    <node id="152" pos="284"/>
+    <node id="153" pos="285"/>
+    <node id="154" pos="286"/>
+    <node id="155" pos="287"/>
+    <node id="156" pos="288"/>
+    <node id="157" pos="290"/>
+    <node id="158" pos="291"/>
+    <node id="159" pos="293"/>
+    <node id="160" pos="295"/>
+    <node id="161" pos="296"/>
+    <node id="162" pos="298"/>
+    <node id="163" pos="301"/>
+    <node id="164" pos="302"/>
+    <node id="165" pos="304"/>
+    <node id="166" pos="308"/>
+    <node id="167" pos="309"/>
+    <node id="168" pos="310"/>
+    <node id="169" pos="311"/>
+    <node id="170" pos="313"/>
+    <node id="171" pos="314"/>
+    <node id="172" pos="316"/>
+    <node id="173" pos="318"/>
+    <node id="174" pos="320"/>
+    <node id="175" pos="321"/>
+    <node id="176" pos="322"/>
+    <node id="177" pos="323"/>
+    <node id="178" pos="325"/>
+    <node id="179" pos="327"/>
+    <node id="180" pos="328"/>
+    <node id="181" pos="330"/>
+    <node id="182" pos="331"/>
+    <node id="183" pos="332"/>
+    <node id="184" pos="333"/>
+    <node id="185" pos="336"/>
+    <node id="186" pos="337"/>
+    <node id="187" pos="338"/>
+    <node id="188" pos="340"/>
+    <node id="189" pos="346"/>
+    <node id="190" pos="347"/>
+    <node id="191" pos="348"/>
+    <node id="192" pos="349"/>
+    <node id="193" pos="352"/>
+    <node id="194" pos="353"/>
+    <node id="195" pos="354"/>
+    <node id="196" pos="355"/>
+    <node id="197" pos="356"/>
+    <node id="198" pos="360"/>
+    <node id="199" pos="363"/>
+    <node id="200" pos="364"/>
+</map>
