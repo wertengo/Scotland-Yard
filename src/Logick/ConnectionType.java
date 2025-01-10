@@ -1,3 +1,5 @@
+package Logick;
+
 import java.awt.*;
 
 public enum ConnectionType {

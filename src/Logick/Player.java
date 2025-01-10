@@ -1,20 +1,22 @@
+package Logick;
+
 import java.util.HashMap;
 import java.util.Map;
 
-//class Player {
+//class Logick.Player {
 //    private int id;
 //    private String name;
-//    private Station currentStation;
+//    private Logick.Station currentStation;
 //    private boolean isMrX; // True, если игрок - мистер Х
-//    private Map<ConnectionType, Integer> tickets; // Количество билетов
+//    private Map<Logick.ConnectionType, Integer> tickets; // Количество билетов
 //
-//    public Player(int id, String name, boolean isMrX, Station startingStation) {
+//    public Logick.Player(int id, String name, boolean isMrX, Logick.Station startingStation) {
 //        this.id = id;
 //        this.name = name;
 //        this.isMrX = isMrX;
 //        this.currentStation = startingStation;
 //        this.tickets = new HashMap<>();
-//        for (ConnectionType type : ConnectionType.values()) {
+//        for (Logick.ConnectionType type : Logick.ConnectionType.values()) {
 //            tickets.put(type, 10); // Например, стартовое количество билетов
 //        }
 //    }
@@ -27,11 +29,11 @@ import java.util.Map;
 //        return name;
 //    }
 //
-//    public Station getCurrentStation() {
+//    public Logick.Station getCurrentStation() {
 //        return currentStation;
 //    }
 //
-//    public void setCurrentStation(Station station) {
+//    public void setCurrentStation(Logick.Station station) {
 //        this.currentStation = station;
 //    }
 //
@@ -39,7 +41,7 @@ import java.util.Map;
 //        return isMrX;
 //    }
 //
-//    public boolean useTicket(ConnectionType type) {
+//    public boolean useTicket(Logick.ConnectionType type) {
 //        int count = tickets.getOrDefault(type, 0);
 //        if (count > 0) {
 //            tickets.put(type, count - 1);
@@ -48,7 +50,7 @@ import java.util.Map;
 //        return false;
 //    }
 //
-//    public int getTickets(ConnectionType type) {
+//    public int getTickets(Logick.ConnectionType type) {
 //        return tickets.getOrDefault(type, 0);
 //    }
 //}

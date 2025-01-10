@@ -1,4 +1,5 @@
-import java.awt.*;
+package Logick;
+
 import java.util.Objects;
 
 public class Connection {

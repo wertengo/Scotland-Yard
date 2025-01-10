@@ -1,8 +1,10 @@
+package Logick;
+
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
 
-class Station {
+public class Station {
     private int id;
     private String name;
     private int x, y; // Координаты для отображения на экране
@@ -46,7 +48,7 @@ class Station {
 
     @Override
     public String toString() {
-        return "Station{" +
+        return "Logick.Station{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

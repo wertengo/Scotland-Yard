@@ -1,3 +1,7 @@
+package app;
+
+import Logick.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -49,7 +53,7 @@ public class GameBoard extends JPanel {
         jmiTaxi.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                JOptionPane.showMessageDialog(GameBoard.this, "минус билет)))", "Station Info", JOptionPane.INFORMATION_MESSAGE);
+//                JOptionPane.showMessageDialog(app.GameBoard.this, "минус билет)))", "Logick.Station Info", JOptionPane.INFORMATION_MESSAGE);
                 if (graph.getConnectedStationsIds(currentPlayer.getCurrentStation().getId()).contains(stationNext.getId()) &&
                         graph.getConnectionType(currentPlayer.getCurrentStation(), stationNext) == ConnectionType.Taxi &&
                         currentPlayer.getTickets(ConnectionType.Taxi) > 0) {
@@ -57,7 +61,7 @@ public class GameBoard extends JPanel {
                     System.out.println("Id: " + currentPlayer.getId() + " MrX - " + currentPlayer.isMrX());
                     System.out.println(currentPlayer.getTickets(ConnectionType.Taxi));
 
-//                    JOptionPane.showMessageDialog(GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Station Info", JOptionPane.INFORMATION_MESSAGE);
+//                    JOptionPane.showMessageDialog(app.GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Logick.Station Info", JOptionPane.INFORMATION_MESSAGE);
                     movePlayer(stationNext,ConnectionType.Taxi);
                 }
             }
@@ -70,9 +74,9 @@ public class GameBoard extends JPanel {
                         graph.getConnectionType(currentPlayer.getCurrentStation(), stationNext) == ConnectionType.Bus &&
                         currentPlayer.getTickets(ConnectionType.Bus) > 0) {
 //                    currentPlayer.setCurrentStation(stationNext);
-//                    currentPlayer.useTicket(ConnectionType.Bus);
+//                    currentPlayer.useTicket(Logick.ConnectionType.Bus);
                     movePlayer(stationNext,ConnectionType.Bus);
-//                    JOptionPane.showMessageDialog(GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Station Info", JOptionPane.INFORMATION_MESSAGE);
+//                    JOptionPane.showMessageDialog(app.GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Logick.Station Info", JOptionPane.INFORMATION_MESSAGE);
 //                    repaint();
 //                    game.nextPlayerTurn();
                 }
@@ -86,8 +90,8 @@ public class GameBoard extends JPanel {
                         graph.getConnectionType(currentPlayer.getCurrentStation(), stationNext) == ConnectionType.Metro &&
                         currentPlayer.getTickets(ConnectionType.Metro) > 0) {
 //                    currentPlayer.setCurrentStation(stationNext);
-//                    currentPlayer.useTicket(ConnectionType.Metro);
-//                    JOptionPane.showMessageDialog(GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Station Info", JOptionPane.INFORMATION_MESSAGE);
+//                    currentPlayer.useTicket(Logick.ConnectionType.Metro);
+//                    JOptionPane.showMessageDialog(app.GameBoard.this, "был ход на точку: " + player.getCurrentStation().getId(), "Logick.Station Info", JOptionPane.INFORMATION_MESSAGE);
 //                    repaint();
 //                    game.nextPlayerTurn();
                     movePlayer(stationNext,ConnectionType.Metro);
@@ -217,14 +221,14 @@ public class GameBoard extends JPanel {
     }
 
     private void showStationInfo(Station station) {
-        JOptionPane.showMessageDialog(this, "Station: " + station.getName(), "Station Info", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Logick.Station: " + station.getName(), "Logick.Station Info", JOptionPane.INFORMATION_MESSAGE);
     }
 
     private void movePlayer(Station nextStation, ConnectionType ticketType) {
         for (Player player : players) {
             if (player != currentPlayer && player.getCurrentStation() == nextStation) {
                 if (player.isMrX() || currentPlayer.isMrX()) {
-                    JOptionPane.showMessageDialog(this, "Mr. X is caught! Game over.", "Game Over", JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this, "Mr. X is caught! app.Game over.", "app.Game Over", JOptionPane.INFORMATION_MESSAGE);
                     System.exit(0);
                 } else {
                     JOptionPane.showMessageDialog(this, "Detectives cannot occupy the same station.", "Invalid Move", JOptionPane.ERROR_MESSAGE);

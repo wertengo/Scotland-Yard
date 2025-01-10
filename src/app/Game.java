@@ -1,14 +1,17 @@
+package app;
+
 import javax.swing.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import Logick.ConnectionType;
+import Logick.Graph;
+import Logick.Player;
+import Logick.Station;
 import org.w3c.dom.*;
 
 import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
@@ -40,7 +43,7 @@ public class Game extends Component {
     }
 
     private List<Player> createPlayers(int count) {
-        ArrayList<Player> players = new ArrayList<>();
+        List<Player> players = new ArrayList<>();
 
         for (int i = 0; i < count; i++) {
             player = new Player(i + 1, "Wertengo", false);
@@ -72,9 +75,9 @@ public class Game extends Component {
     }
 
 
-    /**
-     * Loads the graph's stations and connections from an XML file
-     */
+
+     //Loads the graph's stations and connections from an XML file
+
     private void loadGraphFromXML(String filePath) {
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -92,7 +95,7 @@ public class Game extends Component {
 
 //                if (id == 1) {
 //                    startStation = station;
-//                    player = new Player(1, "Wertengo", false, startStation);
+//                    player = new Logick.Player(1, "Wertengo", false, startStation);
 //                }
 
                 graph.addStation(station);
@@ -140,9 +143,9 @@ public class Game extends Component {
         return id;
     }
 
-    /**
-     * Finds a station by its coordinates.
-     */
+
+      //Finds a station by its coordinates.
+
     private Station findStationByCoordinates(int x, int y) {
         for (Station station : graph.getAllStations()) {
             if (station != null && (station.getX() == x && station.getY() == y)) {
@@ -152,9 +155,9 @@ public class Game extends Component {
         return null;
     }
 
-    /**
-     * Finds a station by id
-     */
+
+     // Finds a station by id
+
     private Station findStationById(int id) {
         for (Station station : graph.getAllStations()) {
             if (station != null && (station.getId() == id)) {

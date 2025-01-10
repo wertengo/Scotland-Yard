@@ -1,12 +1,14 @@
+package Logick;
+
 import java.util.*;
 
-class Graph {
-    private TreeMap<Integer, Station> stations;
-    private HashMap<Integer, HashSet<Connection>> connections;
+public class Graph {
+    private Map<Integer, Station> stations;
+    private Map<Integer, HashSet<Connection>> connections;
 
-    private HashMap<Integer, HashSet<Connection>> singleConnections;
-    private ArrayList<Connection> allConnections;
-    private ArrayList<Connection> singleConnectionsList;
+    private Map<Integer, HashSet<Connection>> singleConnections;
+    private List<Connection> allConnections;
+    private List<Connection> singleConnectionsList;
 
     public Graph() {
         stations = new TreeMap<Integer, Station>();
@@ -20,25 +22,38 @@ class Graph {
     }
 
     public void addConnection(Station station1, Station station2, ConnectionType connectionType) {
-        putConnection(station1, station2, connectionType);
-        putConnection(station2, station1, connectionType);
-        putSingleConnection(station1, station2, connectionType);
+//        putConnection(station1, station2, connectionType);
+//        putConnection(station2, station1, connectionType);
+//        putSingleConnection(station1, station2, connectionType);
+
+        putConnectionToMap(station1,station2,connectionType,connections);
+        putConnectionToMap(station2,station1,connectionType,connections);
+        putConnectionToMap(station1,station2,connectionType,singleConnections);
     }
 
-    private void putSingleConnection(Station station1, Station station2, ConnectionType connectionType) {
-        HashSet<Connection> connSet = singleConnections.get(station1.getId());
-        if (connSet == null) {
-            connSet = new HashSet<Connection>();
-            singleConnections.put(station1.getId(), connSet);
-        }
-        connSet.add(new Connection(station1, station2, connectionType));
-    }
+//    private void putSingleConnection(Station station1, Station station2, ConnectionType connectionType) {
+//        HashSet<Connection> connSet = singleConnections.get(station1.getId());
+//        if (connSet == null) {
+//            connSet = new HashSet<Connection>();
+//            singleConnections.put(station1.getId(), connSet);
+//        }
+//        connSet.add(new Connection(station1, station2, connectionType));
+//    }
+//
+//    private void putConnection(Station station1, Station station2, ConnectionType connectionType) {
+//        HashSet<Connection> connSet = connections.get(station1.getId());
+//        if (connSet == null) {
+//            connSet = new HashSet<Connection>();
+//            connections.put(station1.getId(), connSet);
+//        }
+//        connSet.add(new Connection(station1, station2, connectionType));
+//    }
 
-    private void putConnection(Station station1, Station station2, ConnectionType connectionType) {
-        HashSet<Connection> connSet = connections.get(station1.getId());
+    private void putConnectionToMap(Station station1, Station station2, ConnectionType connectionType, Map<Integer, HashSet<Connection>> map) {
+        HashSet<Connection> connSet = map.get(station1.getId());
         if (connSet == null) {
-            connSet = new HashSet<Connection>();
-            connections.put(station1.getId(), connSet);
+            connSet = new HashSet<>();
+            map.put(station1.getId(), connSet);
         }
         connSet.add(new Connection(station1, station2, connectionType));
     }
@@ -48,9 +63,9 @@ class Graph {
         return stations.get(id);
     }
 
-    /**
-     * Выдает список станций, связанных с заданной
-     */
+
+    //Выдает список станций, связанных с заданной
+
     public ArrayList<Station> getConnectedStations(Station station) {
         HashSet<Connection> connections1 = singleConnections.get(station.getId());
         ArrayList<Station> stationsList = new ArrayList<Station>();
@@ -107,11 +122,11 @@ class Graph {
         return new ArrayList<>(stations.values());
     }
 
-    public ArrayList<Connection> getAllConnections() {
+    public List<Connection> getAllConnections() {
         return allConnections;
     }
 
-    public ArrayList<Connection> getSingleConnectionsList() {
+    public List<Connection> getSingleConnectionsList() {
         return singleConnectionsList;
     }
 

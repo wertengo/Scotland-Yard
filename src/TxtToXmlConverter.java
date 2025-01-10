@@ -37,7 +37,7 @@ public class TxtToXmlConverter {
                     int toId = Integer.parseInt(parts[1]);
                     String type = parts[2];
 
-                    // Connection element with attributes
+                    // Logick.Connection element with attributes
                     Element connection = doc.createElement("connection");
                     connection.setAttribute("from_id", String.valueOf(fromId));
                     connection.setAttribute("to_id", String.valueOf(toId));
